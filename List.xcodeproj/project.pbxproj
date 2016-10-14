@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB1068701DAE3C7800B6A531 /* BNRTasks.m in Sources */ = {isa = PBXBuildFile; fileRef = CB10686F1DAE3C7800B6A531 /* BNRTasks.m */; };
+		CB1068731DAE687000B6A531 /* StudentList.m in Sources */ = {isa = PBXBuildFile; fileRef = CB1068721DAE687000B6A531 /* StudentList.m */; };
+		CB562FA61DAF5FB5009B9DCF /* TeacherRemark.m in Sources */ = {isa = PBXBuildFile; fileRef = CB562FA51DAF5FB5009B9DCF /* TeacherRemark.m */; };
+		CB562FA91DAF7CF4009B9DCF /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = CB562FA81DAF7CF4009B9DCF /* Student.m */; };
+		CB562FAC1DAF7D0F009B9DCF /* Task.m in Sources */ = {isa = PBXBuildFile; fileRef = CB562FAB1DAF7D0F009B9DCF /* Task.m */; };
 		CB659C6B1DAC9D7B00D91310 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CB659C6A1DAC9D7B00D91310 /* main.m */; };
 		CB659C6E1DAC9D7B00D91310 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB659C6D1DAC9D7B00D91310 /* AppDelegate.m */; };
 		CB659C711DAC9D7B00D91310 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB659C701DAC9D7B00D91310 /* ViewController.m */; };
@@ -35,6 +40,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CB10686E1DAE3C7800B6A531 /* BNRTasks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRTasks.h; sourceTree = "<group>"; };
+		CB10686F1DAE3C7800B6A531 /* BNRTasks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRTasks.m; sourceTree = "<group>"; };
+		CB1068711DAE687000B6A531 /* StudentList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudentList.h; sourceTree = "<group>"; };
+		CB1068721DAE687000B6A531 /* StudentList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudentList.m; sourceTree = "<group>"; };
+		CB562FA41DAF5FB5009B9DCF /* TeacherRemark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TeacherRemark.h; path = ../TeacherRemark.h; sourceTree = "<group>"; };
+		CB562FA51DAF5FB5009B9DCF /* TeacherRemark.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TeacherRemark.m; path = ../TeacherRemark.m; sourceTree = "<group>"; };
+		CB562FA71DAF7CF4009B9DCF /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		CB562FA81DAF7CF4009B9DCF /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		CB562FAA1DAF7D0F009B9DCF /* Task.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Task.h; sourceTree = "<group>"; };
+		CB562FAB1DAF7D0F009B9DCF /* Task.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Task.m; sourceTree = "<group>"; };
 		CB659C661DAC9D7B00D91310 /* List.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = List.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB659C6A1DAC9D7B00D91310 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CB659C6C1DAC9D7B00D91310 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -103,6 +118,16 @@
 			children = (
 				CB659C6C1DAC9D7B00D91310 /* AppDelegate.h */,
 				CB659C6D1DAC9D7B00D91310 /* AppDelegate.m */,
+				CB562FAA1DAF7D0F009B9DCF /* Task.h */,
+				CB562FAB1DAF7D0F009B9DCF /* Task.m */,
+				CB562FA71DAF7CF4009B9DCF /* Student.h */,
+				CB562FA81DAF7CF4009B9DCF /* Student.m */,
+				CB10686E1DAE3C7800B6A531 /* BNRTasks.h */,
+				CB10686F1DAE3C7800B6A531 /* BNRTasks.m */,
+				CB1068711DAE687000B6A531 /* StudentList.h */,
+				CB1068721DAE687000B6A531 /* StudentList.m */,
+				CB562FA41DAF5FB5009B9DCF /* TeacherRemark.h */,
+				CB562FA51DAF5FB5009B9DCF /* TeacherRemark.m */,
 				CB659C6F1DAC9D7B00D91310 /* ViewController.h */,
 				CB659C701DAC9D7B00D91310 /* ViewController.m */,
 				CB659C721DAC9D7B00D91310 /* Main.storyboard */,
@@ -271,6 +296,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB659C711DAC9D7B00D91310 /* ViewController.m in Sources */,
+				CB1068701DAE3C7800B6A531 /* BNRTasks.m in Sources */,
+				CB562FA61DAF5FB5009B9DCF /* TeacherRemark.m in Sources */,
+				CB1068731DAE687000B6A531 /* StudentList.m in Sources */,
+				CB562FAC1DAF7D0F009B9DCF /* Task.m in Sources */,
+				CB562FA91DAF7CF4009B9DCF /* Student.m in Sources */,
 				CB659C6E1DAC9D7B00D91310 /* AppDelegate.m in Sources */,
 				CB659C6B1DAC9D7B00D91310 /* main.m in Sources */,
 			);
@@ -496,6 +526,7 @@
 				CB659C951DAC9D7B00D91310 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CB659C961DAC9D7B00D91310 /* Build configuration list for PBXNativeTarget "ListTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +535,7 @@
 				CB659C981DAC9D7B00D91310 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CB659C991DAC9D7B00D91310 /* Build configuration list for PBXNativeTarget "ListUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +544,7 @@
 				CB659C9B1DAC9D7B00D91310 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
